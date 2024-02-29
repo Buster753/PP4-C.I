@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+.container {
+    display: flex;
+}
+.opening-hours, .opening-hours2 {
+    flex: 1;
+    padding: 20px;
+}
+
+.opening-hours {
+    margin-bottom: 2rem;
+}
+
+.address {
+    margin-bottom: 1rem;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.cta a {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+#opening-hour-title {
+    text-decoration: underline;
+}
